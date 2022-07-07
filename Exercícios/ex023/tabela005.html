@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurar colunas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 500px;
+            height: 300px;
+            padding: 10px;
+        }
+
+        th, td {
+            padding: 10px 5px;
+            border: 1px solid black;
+        }
+
+        col:nth-child(even) {
+            background-color: aqua;
+        }
+
+        .meio {
+            background-color: blueviolet;
+        }
+        .meio#meio {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="grupo">
+            <col>
+            <col class="meio" id="meio">
+            <col>
+            <col>
+        </colgroup>
+        <caption></caption>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>Pais</th>
+                <th>população</th>
+                <th>IDH</th>
+            </tr>
+            <tr>
+                <td>QualquerS</td>
+                <td>Qualquer</td>
+                <td>EUA</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>BH</td>
+                <td>Minas</td>
+                <td>Brasil</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Mexico</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Itália</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Argentina</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    
+</body>
+</html>
