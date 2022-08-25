@@ -19,7 +19,7 @@ header > h1 {
     text-align: center;
 }
 
-span#burguer {
+#burguer {
     background-color: rgb(61, 60, 60);
     color: white;
     display: block;
